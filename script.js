@@ -1,8 +1,8 @@
 const containerEl = document.querySelector('#container');
 const preloadImgEl = document.querySelector('#preloadImg');
 
-const imageTimeout = 5000;
-const preloadTimeout = 1000;
+const imageTimeout = 2000;
+const preloadTimeout = 8000;
 
 
 let currentIndex = 0;
@@ -12,7 +12,7 @@ function updateIndex() {
 }
 
 function updateImageWithCurrentIndex() {
-    const url = 'pictures/' + images[currentIndex];
+    const url = 'https://' + ncUser + ':' + ncPassword + '@' + ncBaseUrl + images[currentIndex];
     preloadImgEl.src = url;
 
     setTimeout(() => {
