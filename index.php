@@ -56,7 +56,7 @@ const ncPassword = '<?php echo $ncPassword; ?>';
 const ncBaseUrl = '<?php echo $ncBaseUrl; ?>';
 </script>
     <div id="container">
-        <div id="inner"></div>
+        <img id="inner" src="">
     </div>
     <img id="preloadImg" style="display: none">
     <script type="text/javascript" src="script.js"></script>
