@@ -1,4 +1,4 @@
-const containerEl = document.querySelector('#container');
+const imageEl = document.querySelector('#inner');
 const preloadImgEl = document.querySelector('#preloadImg');
 
 const imageTimeout = 2000;
@@ -16,7 +16,7 @@ function updateImageWithCurrentIndex() {
     preloadImgEl.src = url;
 
     setTimeout(() => {
-        containerEl.style.backgroundImage = 'url(' + url + ')';
+        imageEl.src = url;
     }, preloadTimeout);
 }
 
