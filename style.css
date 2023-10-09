@@ -1,7 +1,7 @@
 body, html {
-  height: 100%;
+    height: 100%;
 }
-
+  
 body {
     margin: auto;
     padding: 0;
@@ -9,15 +9,25 @@ body {
 }
 
 #container {
-    width: 1280px;
+    width: 1638px;
     height: 1024px;
+    background: red;
+    transform: scaleX(0.78125);
+    margin-left: -179px;
 }
   
 #inner {
-    height: 100%;
-    width: 100%;
-    transform: scaleX(0.78125) scale(1.28);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+    display: block;
+    max-height: 100%;
+    max-width: 100%;
+    margin: 0 auto;
 }
+
+
+/*
+Ausgangsformat: 1920 x 1200 (16:10)
+herunterskaliert auf 1024 px Höhe => 1638,4 x 1024 (16:10)
+
+Bildschirm zeigt 1280 x 1024 (4:3) auf physischer Größe 16:10 an
+=> deshalb X-Achse stauchen auf 1280 / 1638,4 = 78,125 %
+*/
