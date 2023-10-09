@@ -9,10 +9,15 @@ body {
 }
 
 #container {
+    width: 1280px;
+    height: 1024px;
+}
+  
+#inner {
     height: 100%;
     width: 100%;
+    transform: scaleX(0.78125) scale(1.28);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    /*transition: background-image 1s;*/
 }
