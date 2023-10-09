@@ -30,4 +30,7 @@ herunterskaliert auf 1024 px Höhe => 1638,4 x 1024 (16:10)
 
 Bildschirm zeigt 1280 x 1024 (4:3) auf physischer Größe 16:10 an
 => deshalb X-Achse stauchen auf 1280 / 1638,4 = 78,125 %
+
+Ausgleich nach links:
+(1638 px - 1280 px) / 2 = 179 px
 */
